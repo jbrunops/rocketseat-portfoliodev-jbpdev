@@ -41,12 +41,13 @@
   --text-sm: normal 14px/140% var(--font-family-MavenPro);
 }
 
-.container {
+/* COrrigido: tinha colocado como class, mas era ID */
+#container {
   max-width: 1366px;
+  margin: 0 auto;
 }
 
 body {
-  width: 1366px;
   background-color: var(--bg);
   text-align: center;
 }
