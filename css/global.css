@@ -75,6 +75,10 @@ p {
   color: var(--red);
 }
 
+.name_purple {
+  color: var(--purple);
+}
+
 h4 {
   font: var(--title-sm);
   color: var(--gray-600);
