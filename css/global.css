@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 1366px;
+  margin: 0 auto;
+  background-color: var(--gray-200);
+}
+
 :root {
   /* Principal */
   --red: #e3646e;
