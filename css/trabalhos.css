@@ -1,6 +1,6 @@
 #meus-trabalhos {
   padding: 72px 144px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 #trabalhos {
@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   justify-content: center; */
   justify-content: center;
-  background-color: aqua;
+  /* background-color: aqua; */
   gap: 24px;
   .card {
     text-align: left;

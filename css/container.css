@@ -26,12 +26,13 @@
   justify-content: center;
   align-items: center; */
   padding-bottom: 56px;
+  position: relative;
 }
 
 .img__code {
   position: absolute;
-  top: 190px;
-  left: 700px;
+  top: 60px;
+  left: 360px;
 }
 
 h2 {
