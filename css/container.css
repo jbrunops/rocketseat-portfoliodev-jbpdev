@@ -48,6 +48,31 @@ p {
   color: var(--gray-400);
 }
 
-.name_red {
-  color: var(--red);
+#tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 16px;
+  #tag-botton {
+    display: flex;
+    background-color: var(--gray-300);
+    font: var(--text-md);
+    color: var(--gray-500);
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    gap: 8px;
+    img {
+      height: 24px;
+    }
+  }
+}
+
+.seta_doubledown {
+  margin-top: 94px;
+  img {
+    height: 32px;
+  }
 }
