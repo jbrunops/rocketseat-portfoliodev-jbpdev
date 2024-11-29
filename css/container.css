@@ -1,0 +1,53 @@
+#container {
+  /* Background container */
+  background-image: url(../assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: contain;
+
+  /* Info */
+}
+
+#info {
+  padding-top: 120px;
+  max-width: 1040px;
+
+  /* Essa propriedade distribuiu todo o conteúdo por igual! */
+  margin-inline: auto;
+}
+
+#header {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+#avatar {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-bottom: 56px;
+}
+
+.img__code {
+  position: absolute;
+  top: 190px;
+  left: 700px;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 80px;
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.name_red {
+  color: var(--red);
+}

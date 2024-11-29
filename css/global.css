@@ -4,13 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 1366px;
-  margin: 0 auto;
-  /* background-color: var(--gray-200); */
-}
-
 :root {
+  /* Background */
+  --bg: #1a1c20;
+
   /* Principal */
   --red: #e3646e;
   --purple: #bb72e9;
@@ -42,4 +39,58 @@ body {
   /* Tamanho da fonte Maven Pro */
   --text-md: normal 16px/140% var(--font-family-MavenPro);
   --text-sm: normal 14px/140% var(--font-family-MavenPro);
+}
+
+.container {
+  max-width: 1366px;
+}
+
+body {
+  width: 1366px;
+  background-color: var(--bg);
+  text-align: center;
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+h2 {
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-600);
+}
+
+#tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 16px;
+  #tag-botton {
+    display: flex;
+    background-color: var(--gray-300);
+    font: var(--text-md);
+    color: var(--gray-500);
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    gap: 8px;
+    img {
+      height: 24px;
+    }
+  }
+}
+
+.seta_doubledown {
+  margin-top: 94px;
+  img {
+    height: 32px;
+  }
 }
